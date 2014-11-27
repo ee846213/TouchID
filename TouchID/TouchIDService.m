@@ -9,11 +9,6 @@
 #import "TouchIDService.h"
 #import <LocalAuthentication/LocalAuthentication.h>
 @implementation TouchIDService
-
-+(BOOL)isCanTouchIDLogin
-{
-    return [[NSUserDefaults standardUserDefaults]boolForKey:@"isTouchIDLogin"];
-}
 +(instancetype)authenticateUserWithReasonString:(NSString *)reasonStr successful:(void (^)())successful authenticatePassword:(void (^)(NSString *password))password cancel:(void (^)())cancel
 {
     TouchIDService *touchid = [[TouchIDService alloc]initWithReasonString:reasonStr successful:successful authenticatePassword:password cancel:cancel];

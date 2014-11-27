@@ -18,5 +18,4 @@ typedef void (^cancelBlock)();
 @property (strong,nonatomic)NSString *reasonSting;
 +(instancetype)authenticateUserWithReasonString:(NSString *)reasonStr successful:(void (^)())successful authenticatePassword:(void (^)(NSString *password))password cancel:(void (^)())cancel;
 -(void)showPasswordAlert;
-+(BOOL)isCanTouchIDLogin;
 @end

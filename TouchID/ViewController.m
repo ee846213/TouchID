@@ -22,7 +22,6 @@
     //用户选择输入密码，在这个地方进行验证
     } cancel:^{
     //用户退出
-        
     }];
     // Do any additional setup after loading the view, typically from a nib.
 }

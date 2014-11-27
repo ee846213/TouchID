@@ -418,6 +418,7 @@
 				B04889EE1A26F1E600ABBA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B04889EF1A26F1E600ABBA1A /* Build configuration list for PBXNativeTarget "TouchIDTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				B04889F11A26F1E600ABBA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
