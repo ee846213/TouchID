@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TouchIDService.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [TouchIDService authenticateUserWithReasonString:@"请触摸" successful:^{
+     //验证成功
+    } authenticatePassword:^(NSString *password) {
+    //用户选择输入密码，在这个地方进行验证
+    } cancel:^{
+    //用户退出
+        
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

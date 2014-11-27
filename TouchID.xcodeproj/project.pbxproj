@@ -14,6 +14,7 @@
 		B04889DA1A26F1E600ABBA1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04889D91A26F1E600ABBA1A /* Images.xcassets */; };
 		B04889DD1A26F1E600ABBA1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B04889DB1A26F1E600ABBA1A /* LaunchScreen.xib */; };
 		B04889E91A26F1E600ABBA1A /* TouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04889E81A26F1E600ABBA1A /* TouchIDTests.m */; };
+		B04889F41A26F1F600ABBA1A /* TouchIDService.m in Sources */ = {isa = PBXBuildFile; fileRef = B04889F31A26F1F600ABBA1A /* TouchIDService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B04889E21A26F1E600ABBA1A /* TouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04889E71A26F1E600ABBA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B04889E81A26F1E600ABBA1A /* TouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDTests.m; sourceTree = "<group>"; };
+		B04889F21A26F1F600ABBA1A /* TouchIDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDService.h; sourceTree = "<group>"; };
+		B04889F31A26F1F600ABBA1A /* TouchIDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		B04889CB1A26F1E600ABBA1A /* TouchID */ = {
 			isa = PBXGroup;
 			children = (
+				B04889F21A26F1F600ABBA1A /* TouchIDService.h */,
+				B04889F31A26F1F600ABBA1A /* TouchIDService.m */,
 				B04889D01A26F1E600ABBA1A /* AppDelegate.h */,
 				B04889D11A26F1E600ABBA1A /* AppDelegate.m */,
 				B04889D31A26F1E600ABBA1A /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04889F41A26F1F600ABBA1A /* TouchIDService.m in Sources */,
 				B04889D51A26F1E600ABBA1A /* ViewController.m in Sources */,
 				B04889D21A26F1E600ABBA1A /* AppDelegate.m in Sources */,
 				B04889CF1A26F1E600ABBA1A /* main.m in Sources */,
